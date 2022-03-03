@@ -72,7 +72,7 @@ To get started, first clone this repo:
 Next, install yarn dependencies (note, you should not use `npm` intsead of `yarn` during `install` because `npm` does not respect `yarn.lock` but you should be able to use `npm` for the other commands.):
 
 ```bash
-> yarn install --lock-file
+> yarn install --lock-file --ignore-platform
 ```
 
 Next, build and watch for string translation changes:
